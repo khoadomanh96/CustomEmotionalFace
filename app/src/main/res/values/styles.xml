@@ -1,0 +1,23 @@
+<resources>
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/colorPrimary</item>
+    <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+    <item name="colorAccent">@color/colorAccent</item>
+  </style>
+  <!--1-->
+  <declare-styleable name="EmotionalFaceView">
+    <!--2-->
+    <attr name="faceColor" format="color" />
+    <attr name="eyesColor" format="color" />
+    <attr name="mouthColor" format="color" />
+    <attr name="borderColor" format="color" />
+    <attr name="borderWidth" format="dimension" />
+    <attr name="state" format="enum">
+      <enum name="happy" value="0" />
+      <enum name="sad" value="1" />
+    </attr>
+  </declare-styleable>
+</resources>
